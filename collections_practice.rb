@@ -4,6 +4,7 @@ def begins_with_r(array)
     if word.start_with? ("r")
       a += 1
     end
+  end
   if a == array.size
       return true
     else
