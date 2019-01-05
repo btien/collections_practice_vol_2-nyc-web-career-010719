@@ -3,6 +3,7 @@ def begins_with_r(array)
   array.each do |word|
     if word.start_with? ("r")
       a += 1
+    end
   if a == array.size
       return true
     else
