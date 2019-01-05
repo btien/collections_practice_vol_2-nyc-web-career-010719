@@ -15,7 +15,7 @@ end
 def contain_a(array)
   array.each do |element|
     if(element.include?("a"))
-      "#{element}"
+      return "#{element}"
     end
   end
 end
