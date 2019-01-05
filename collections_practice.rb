@@ -1,3 +1,4 @@
-def begins_with_r
+def begins_with_r(array)
+  
   
 end
